@@ -1,0 +1,9 @@
+{
+  "counts": {"person": 3, "head": 2, "helmet": 1},
+  "review_images": ["demo.png"],
+  "reviews": [
+    {"person_id": 20, "reason": "helmet_unmatched", "review_status": "pending", "image": "demo.png"},
+    {"person_id": 30, "reason": "head_unmatched", "review_status": "pending", "image": "demo.png"}
+  ],
+  "errors": []
+}

@@ -1,0 +1,47 @@
+# Local-only materials, additional environments and optional model sources
+/.local/
+/work/
+/tmp/
+/input/
+/output/
+/third_party/
+.venv-*/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.log
+.env
+.env.*
+!.env.example
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Large local artifacts
+checkpoints/*
+!checkpoints/.gitkeep
+outputs/*
+!outputs/.gitkeep
+data/
+data_samples/*
+!data_samples/.gitkeep
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

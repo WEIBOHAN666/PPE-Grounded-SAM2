@@ -1,0 +1,9 @@
+# Core runtime: dataset inspection, geometry-based association and image review.
+# Python >= 3.10. Tests use the standard-library unittest module.
+numpy>=1.26,<3.0
+Pillow>=10.0,<12.0
+opencv-python>=4.10,<5.0
+
+# Model inference is optional; see requirements-models.txt and
+# docs/CLOUD_INFERENCE.md. Do not install multiple OpenCV wheel variants
+# (opencv-python / opencv-python-headless / opencv-contrib-python) together.

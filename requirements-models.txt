@@ -1,0 +1,10 @@
+# Optional model runtime. Run from the project root AFTER:
+# 1. installing a compatible CUDA-enabled torch/torchvision pair;
+# 2. cloning the two official repositories under third_party/;
+# 3. installing build tools as described in docs/CLOUD_INFERENCE.md.
+# This file is a dependency manifest, not a validated GPU environment lock.
+-r requirements.txt
+torch>=2.5.1
+torchvision>=0.20.1
+-e ./third_party/GroundingDINO
+-e ./third_party/sam2

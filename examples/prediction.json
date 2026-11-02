@@ -1,0 +1,14 @@
+{
+  "image": "demo.png",
+  "width": 3600,
+  "height": 1024,
+  "data_source": "synthetic_demo_not_model_output",
+  "instances": [
+    {"instance_id": 10, "label": "person", "detection_score": 0.95, "box_xyxy": [80, 200, 500, 900]},
+    {"instance_id": 11, "label": "head", "detection_score": 0.90, "box_xyxy": [180, 350, 360, 550]},
+    {"instance_id": 12, "label": "helmet", "detection_score": 0.92, "box_xyxy": [180, 260, 360, 440]},
+    {"instance_id": 20, "label": "person", "detection_score": 0.88, "box_xyxy": [1280, 200, 1700, 900]},
+    {"instance_id": 21, "label": "head", "detection_score": 0.86, "box_xyxy": [1380, 350, 1560, 550]},
+    {"instance_id": 30, "label": "person", "detection_score": 0.91, "box_xyxy": [2480, 200, 2900, 900]}
+  ]
+}
